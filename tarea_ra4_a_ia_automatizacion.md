@@ -27,12 +27,17 @@ Modelos de análisis de documentos como los descritos en la documentación ofici
 
 ## 4) Optimización (mejora medible)
 Define 3 métricas con valores antes/después:
-- Tiempo:
-- Coste:
-- Calidad:
+- Tiempo: de 10 min por factura a 2 min por factura.
+- Coste: una persona que se dedique a comprobar lo que hace la IA.
+- Calidad: se reduce la posibilidad de que haya fallos.
 
 ## 5) Diagrama del flujo (ASCII o Mermaid)
-(Pega aquí el diagrama)
+
+    A[Email con factura PDF] --> B[IA]
+    B --> C[Extracción de datos]
+    C --> D{¿Confianza alta?}
+    D -- Sí --> E[Factura comprobada y archivada]
+    D -- No --> F[Revisión humana]
 
 ## 6) Riesgos y mitigación
 - Riesgo 1:
