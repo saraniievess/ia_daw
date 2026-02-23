@@ -40,10 +40,11 @@ Define 3 métricas con valores antes/después:
     D -- No --> F[Revisión humana]
 
 ## 6) Riesgos y mitigación
-- Riesgo 1:
-- Mitigación 1:
-- Riesgo 2:
-- Mitigación 2:
+- Riesgo 1: errores de extracción en facturas con formato no estándar.
+- Mitigación 1: validación humana en casos dudosos.
+- Riesgo 2: problemas de privacidad o manejo indebido de documentos
+- Mitigación 2: uso de entornos seguros, cifrado y control de accesos.
 
 ## 7) Fuente oficial
-- Enlace: 
+- Enlace: Documentación oficial de Google Document AI
+	  https://cloud.google.com/document-ai/docs
